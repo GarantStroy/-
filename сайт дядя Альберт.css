@@ -1,21 +1,5 @@
 html{
-		background-image: url("1614262894_20-p-chernaya-kirpichnaya-stena-fon-21.jpg");
-}
-#cpp{
-  color: #000;
-	text-decoration: none;
-}
-.pp{
-	color: #000;
-	text-align: right;
-	text-align: top;
-	text-decoration: none;
-}
-.cs{
-	font-family: ARIAL;
-}
-.zxc{
-	background-color: #7FFFD4;
+		background-image: url("pop.jpg");
 }
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
@@ -28,27 +12,6 @@ img {vertical-align: middle;}
   position: relative;
   margin: auto;
 }
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
 /* The dots/bullets/indicators */
 .dot {
   height: 15px;
@@ -86,3 +49,44 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+.social-icons-8 {
+    padding: 0;
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons-8 li {
+    padding: 0 10px;
+}
+.social-icons-8 i {
+    color: #337AB7;
+    font-size: 48px;
+}
+.social-icons-8 img {
+    width: 48px;
+    height: 48px;
+}
+.social-icons-8 i:hover,
+.social-icons-8 img:hover {
+    animation: social-icons-8-move 200ms infinite;
+}
+@keyframes social-icons-8-move {
+    0% {
+        filter: drop-shadow(6px 6px #BFE2FF) drop-shadow(-6px -6px #d1eaff);
+    }
+    25% {
+        filter: drop-shadow(-6px -6px #BFE2FF) drop-shadow(6px 6px #d1eaff);
+    }
+    50% {
+        filter: drop-shadow(6px -6px #BFE2FF) drop-shadow(-6px 6px #d1eaff);
+    }
+    75% {
+        filter: drop-shadow(-6px -6px #BFE2FF) drop-shadow(-6px -6px #d1eaff);
+    }
+    100% {
+        filter: drop-shadow(6px 6px #BFE2FF) drop-shadow(6px 6px #d1eaff);
+    }
+}
+
