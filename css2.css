@@ -1,0 +1,52 @@
+html{
+	background-image: url("pop.jpg");
+}
+
+nav {
+  max-width: 1254px;
+  margin: 0 auto;
+}
+
+nav ul {
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 0 25px rgba(23, 22, 22, 0.15), inset 0 0 1px rgba(249, 245, 245, 0.63);
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 19.8px;
+  font-family: "Roboto";
+  color: rgba(8, 8, 8, 0.66);
+  text-shadow: 1px 1px 1px rgba(247, 241, 241, 0.53);
+  font-size: 25px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 0, 0, 0.64);
+}
+
+h1#author {
+  position: fixed;
+  bottom: 49px;
+  text-align: center;
+  color: #363642;
+  width: 100%;
+  padding: 10px 0;
+  font-family: "Nixie One";
+  text-stroke: 1px;
+  font-size: 29px;
+  text-shadow: 0 0 9px #8e8c8c;
+  font-family: "Roboto"
+}
+h1#author a {
+  color: #1b6ba0;
+  text-decoration: none;
+}
