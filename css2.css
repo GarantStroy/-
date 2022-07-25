@@ -20,7 +20,7 @@ nav ul li a {
   font-family: "Roboto";
   color: #fbe72e;
   text-shadow: 1px 1px 1px rgba(247, 241, 241, 0.53);
-  font-size: 25px;
+  font-size: auto;
   text-decoration: none;
   display: inline-flex;
 }
@@ -31,23 +31,6 @@ nav ul li a:hover {
   color: white;
 }
 
-h1#author {
-  position: fixed;
-  bottom: 49px;
-  text-align: center;
-  color: #363642;
-  width: 100%;
-  padding: 10px 0;
-  font-family: "Nixie One";
-  text-stroke: 1px;
-  font-size: 29px;
-  text-shadow: 0 0 9px #8e8c8c;
-  font-family: "Roboto"
-}
-h1#author a {
-  color: #1b6ba0;
-  text-decoration: none;
-}
 .bebra{
 	padding: 1%;
 }
