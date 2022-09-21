@@ -1,5 +1,6 @@
 html{
-		background-image: url("pop.jpg");
+		background-image: url("фонголуб.jpg");
+background-size: 100%;
 }
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
@@ -7,12 +8,11 @@ body {font-family: Verdana, sans-serif;}
 img {vertical-align: middle;}
 
 nav {
-
-  margin-right: 5%;
+	margin-right: 5%;
 }
 
 nav ul {
-	padding-right: %;
+	padding-right: 2%;
 }
 
 nav ul li {
@@ -31,10 +31,6 @@ nav ul li a {
 nav ul li a:hover {
   background: rgba(255, 255, 255, 0.1);
   color: white;
-}
-
-.bebra{
-	padding: 1%;
 }
 
 /* Slideshow container */
